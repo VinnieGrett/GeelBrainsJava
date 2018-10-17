@@ -3,9 +3,7 @@ println hi;
 int s = 5;
 ;
 ;
-;
-;
-;
+
 
 int g = 5;
 =======
