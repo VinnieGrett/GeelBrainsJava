@@ -1,14 +1,14 @@
 
 public class Methods {
 
-	//ÇÀÄÀÍÈÅ 3
+	
 	private static int calc(int a, int b, int c, int d) {
 		int Result;
 		Result = a*(b+(c/d));
 	  return Result;
 	}
 	
-	//ÇÀÄÀÍÈÅ 4
+	
 	  private static boolean sravnenie(final int s, final int f) {
 		  boolean	VBN = false;
 	if (s+f<20&s+f>10)
@@ -16,7 +16,7 @@ public class Methods {
 	else VBN = false;
 	return VBN;
 	  }
-	  //ÇÀÄÀÍÈÅ 5
+	  
 	private static String vozvrashenie(final int H) {
 		boolean KL = false;
 		String text = null;
@@ -31,7 +31,7 @@ public class Methods {
 		return text;
 		
 	}
-	 //ÇÀÄÀÍÈÅ 6
+	
 	private static boolean vozvrashenie2(final int J) {
 		boolean LK = false;
 		if(J < 0 )
@@ -42,17 +42,21 @@ public class Methods {
 		
 		return LK;
 	}
-	//ÇÀÄÀÍÈÅ 7
+	
 	private static String Name(String name) {
 	
 	name= "Âàùå èìÿ" +"_"+ name;  
 	return name;
 	}
-	//ÇÀÄÀÍÈÅ 8
+	
 	private static boolean isLeapYear(int year) {
 		if (year % 4 == 0) {
 		return true;
-		
+		}
+else if (year%400 == 0) {
+returm true;
+}else if (year%100 == 0){
+return false;
 		} else {
 		return false;
 		}}
