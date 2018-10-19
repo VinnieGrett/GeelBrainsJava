@@ -1,0 +1,25 @@
+
+
+public class Task {
+
+	
+		private static Scanner input;
+public static void main(String[] args) {
+		
+		
+	  
+	  byte qw = 10; 
+	  short we = 10;
+	  int er = 10;
+	  long ty = 10l;
+	  float yu = 10f;
+	  double ui = 10.65;
+	  char gj = 'j';
+	  boolean ghj;
+	  
+	  
+	}
+
+}
+		
+
